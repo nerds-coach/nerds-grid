@@ -1,5 +1,6 @@
 {
   "app": "gridcraft",
   "upstream": "storytold/gridcraft",
-  "name": "NERDS Grid"
+  "name": "NERDS Grid",
+  "upstream_name": "GridCraft"
 }
