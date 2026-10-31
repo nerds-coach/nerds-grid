@@ -1,0 +1,3 @@
+run: https://github.com/nerds-coach/nerds-grid/actions/runs/41173217332
+commit: 70f4068cd90503298f6045dd629f5fd748a06e12
+job: macos
