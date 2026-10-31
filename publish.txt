@@ -1,0 +1,9 @@
+total 178412
+-rw-r--r-- 1 runner runner      417 Oct 31 05:46 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 82440162 Oct 31 05:46 gridcraft-0.14.2-macos-universal.dmg
+-rw-r--r-- 1 runner runner 48346597 Oct 31 05:46 gridcraft-0.14.2-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 39129088 Oct 31 05:46 gridcraft-0.14.2-windows-x64.msi
+-rw-r--r-- 1 runner runner 12770004 Oct 31 05:46 gridcraft-cli-0.14.2-macos-universal.zip
+8471 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-grid/releases/tag/untagged-42e7a724c5c895d7399a
+https://github.com/nerds-coach/nerds-grid/releases/tag/v0.14.2
