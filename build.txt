@@ -1,0 +1,70 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> GridCraft 0.17.0 for macOS (universal), identity: -, notarize: 0
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[33mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m enum-map v3.1.0
+[1m[92m  Downloaded[0m enum-map-derive v1.0.1
+[1m[92m   Compiling[0m gridcraft-core v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/core)
+[1m[92m   Compiling[0m gridcraft-math v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/math)
+[1m[92m   Compiling[0m gridcraft-formula v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/formula)
+[1m[92m   Compiling[0m gridcraft-model v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/model)
+[1m[92m   Compiling[0m enum-map-derive v1.0.1
+[1m[92m   Compiling[0m gridcraft-functions v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/functions)
+[1m[92m   Compiling[0m gridcraft-numfmt v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/numfmt)
+[1m[92m   Compiling[0m gridcraft-calc v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/calc)
+[1m[92m   Compiling[0m gridcraft-ui-egui v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/ui-egui)
+[1m[92m   Compiling[0m gridcraft-xlsx v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/xlsx)
+[1m[92m   Compiling[0m gridcraft-chart v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/chart)
+[1m[92m   Compiling[0m gridcraft-pdf v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/pdf)
+[1m[92m   Compiling[0m gridcraft-engine v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/engine)
+[1m[92m   Compiling[0m gridcraft v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/apps/gridcraft)
+[1m[92m   Compiling[0m enum-map v3.1.0
+[1m[92m   Compiling[0m egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[33mwarning[0m: gridcraft-ui-egui@0.17.0: craft-fonts: not embedding Noto Sans CJK SC Regular (repository asset policy)
+[1m[33mwarning[0m: gridcraft-ui-egui@0.17.0: craft-fonts: not embedding Noto Sans CJK SC Regular (repository asset policy)
+[1m[92m   Compiling[0m gridcraft-mcp v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/crates/mcp)
+[1m[92m   Compiling[0m gridcraft-cli v0.17.0 (/Users/runner/work/nerds-grid/nerds-grid/apps/gridcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 9m 04s
+Architectures in the fat file: /Users/runner/work/nerds-grid/nerds-grid/target/macos-package/bin/gridcraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-grid/nerds-grid/target/macos-package/bin/gridcraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-grid/nerds-grid/target/macos-package/NERDS Grid.app
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/NERDS Grid.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/NERDS Grid.app/Contents/MacOS/GridCraft: replacing existing signature
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/NERDS Grid.app: replacing existing signature
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/NERDS Grid.app: valid on disk
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/NERDS Grid.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-0.17.0-macos-universal.dmg
+Creating hybrid image...
+
+Preparing imaging engine…
+Reading Driver Descriptor Map (DDM : 0)…
+   (CRC32 $37F5AA90: Driver Descriptor Map (DDM : 0))
+Reading Apple (Apple_partition_map : 1)…
+   (CRC32 $2712C3BD: Apple (Apple_partition_map : 1))
+Reading DiscRecording 9.0.3d5 (Apple_HFS : 2)…
+   (CRC32 $45CC54DB: DiscRecording 9.0.3d5 (Apple_HFS : 2))
+Adding resources…
+Elapsed Time:  4.359s
+File size: 85812808 bytes, Checksum: CRC32 $106F18DC
+Sectors processed: 348572, 348569 compressed
+Speed: 39.0MB/s
+Savings: 51.9%
+created: /Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-0.17.0-macos-universal.dmg
+/Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-0.17.0-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-0.17.0-macos-universal.dmg: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-cli-0.17.0-macos-universal.zip
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/gridcraft-cli-0.17.0-macos-universal/gridcraft-cli: replacing existing signature
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/gridcraft-cli-0.17.0-macos-universal/gridcraft-cli: valid on disk
+/Users/runner/work/nerds-grid/nerds-grid/target/macos-package/gridcraft-cli-0.17.0-macos-universal/gridcraft-cli: satisfies its Designated Requirement
+gridcraft-cli 0.17.0
+==> done
+-rw-r--r--@ 1 runner  staff    82M Nov  7 06:04 /Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-0.17.0-macos-universal.dmg
+-rw-r--r--  1 runner  staff    15M Nov  7 06:04 /Users/runner/work/nerds-grid/nerds-grid/dist/release/gridcraft-cli-0.17.0-macos-universal.zip
