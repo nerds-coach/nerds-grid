@@ -1,0 +1,85 @@
+NERDS Grid 0.19.1 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m git repository `https://github.com/storytold/winprint.rs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m siphasher v1.0.4
+[1m[92m   Compiling[0m rand v0.8.8
+[1m[92m   Compiling[0m regex-syntax v0.8.11
+[1m[92m   Compiling[0m thiserror v1.0.69
+[1m[92m   Compiling[0m phf_shared v0.11.3
+[1m[92m   Compiling[0m phf_generator v0.11.3
+[1m[92m   Compiling[0m regex-automata v0.4.18
+[1m[92m   Compiling[0m phf_macros v0.11.3
+[1m[92m   Compiling[0m windows-numerics v0.3.1
+[1m[92m   Compiling[0m ratex-types v0.1.14
+[1m[92m   Compiling[0m thiserror-impl v1.0.69
+[1m[92m   Compiling[0m bit-vec v0.8.0
+[1m[92m   Compiling[0m windows v0.62.2
+[1m[92m   Compiling[0m bit-set v0.8.0
+[1m[92m   Compiling[0m regex v1.13.1
+[1m[92m   Compiling[0m phf v0.11.3
+[1m[92m   Compiling[0m tinyvec v1.13.3
+[1m[92m   Compiling[0m ratex-font v0.1.14
+[1m[92m   Compiling[0m unicode-normalization v0.1.26
+[1m[92m   Compiling[0m ratex-lexer v0.1.14
+[1m[92m   Compiling[0m fancy-regex v0.14.0
+[1m[92m   Compiling[0m gridcraft-core v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\core)
+[1m[92m   Compiling[0m regex-lite v0.1.9
+[1m[92m   Compiling[0m gridcraft-formula v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\formula)
+[1m[92m   Compiling[0m ratex-parser v0.1.14
+[1m[92m   Compiling[0m gridcraft-functions v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\functions)
+[1m[92m   Compiling[0m gridcraft-numfmt v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\numfmt)
+[1m[92m   Compiling[0m gridcraft-pdf v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\pdf)
+[1m[92m   Compiling[0m ratex-layout v0.1.14
+[1m[92m   Compiling[0m gridcraft-math v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\math)
+[1m[92m   Compiling[0m gridcraft-model v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\model)
+[1m[92m   Compiling[0m winprint v0.2.1 (https://github.com/storytold/winprint.rs?rev=bc06a7c48b768eb27a828c7986f6d2868b245ee0#bc06a7c4)
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m gridcraft-ui-egui v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\ui-egui)
+[1m[92m   Compiling[0m craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m gridcraft-calc v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\calc)
+[1m[92m   Compiling[0m gridcraft-chart v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\chart)
+[1m[92m   Compiling[0m gridcraft-xlsx v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\xlsx)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[93mwarning[0m: gridcraft-ui-egui@0.19.1: craft-fonts: not embedding Noto Sans CJK SC Regular (repository asset policy)
+[1m[92m   Compiling[0m gridcraft v0.19.1 (D:\a\nerds-grid\nerds-grid\apps\gridcraft)
+[1m[92m   Compiling[0m craft-window v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m gridcraft-engine v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\engine)
+[1m[92m   Compiling[0m gridcraft-sandbox v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\sandbox)
+[1m[92m   Compiling[0m gpu-allocator v0.28.0
+[1m[92m   Compiling[0m wgpu-hal v30.0.1
+[1m[92m   Compiling[0m accesskit_windows v0.35.1
+[1m[92m   Compiling[0m accesskit_winit v0.34.1
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m wgpu-core-deps-windows-linux-android v30.0.1
+[1m[92m   Compiling[0m wgpu-core v30.0.1
+[1m[92m   Compiling[0m gridcraft-mcp v0.19.1 (D:\a\nerds-grid\nerds-grid\crates\mcp)
+[1m[92m   Compiling[0m craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m wgpu v30.0.1
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m gridcraft-cli v0.19.1 (D:\a\nerds-grid\nerds-grid\apps\gridcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 8m 26s
+ok gridcraft.exe: x64, PE subsystem 2
+ok gridcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-grid\nerds-grid\target\windows-package\x64\gridcraft.exe, D:\a\nerds-grid\nerds-grid\target\windows-package\x64\gridcraft-cli.exe
+==> wix build
+PASS GridCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-grid\nerds-grid\dist\release\gridcraft-0.19.1-windows-x64.msi
+==> gridcraft-cli --version
+gridcraft-cli 0.19.1
+
+[32;1mName                                     [0m[32;1m   Length[0m
+[32;1m----                                     [0m [32;1m  ------[0m
+gridcraft-0.19.1-windows-x64.msi          41873408
+gridcraft-0.19.1-windows-x64-portable.zip 52120664
+
