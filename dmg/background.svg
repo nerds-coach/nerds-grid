@@ -2,14 +2,14 @@
 <defs><clipPath id="panel"><rect width="232" height="400"/></clipPath></defs>
 
 <rect width="660" height="400" fill="#f5f7fa"/>
-<g clip-path="url(#panel)"><rect width="232" height="400" fill="#1e9752"/><g transform="translate(3.4,87.4) scale(0.22)"><path d="M276,228 H748 Q796,228 796,276 V748 Q796,796 748,796 H276 Q228,796 228,748 V276 Q228,228 276,228 Z" fill="#FFFFFF"/><path d="M228,276 Q228,228 276,228 H748 Q796,228 796,276 V356 H228 Z" fill="#a1d6b8"/><path d="M228,498 H796 M228,640 H796 M418,228 V796 M608,228 V796" fill="none" stroke="#1e9752" stroke-width="26" stroke-linecap="butt" stroke-linejoin="round"/><path d="M228,356 H796" fill="none" stroke="#1e9752" stroke-width="26" stroke-linecap="butt" stroke-linejoin="round"/></g></g>
+<g clip-path="url(#panel)"><rect width="232" height="400" fill="#206e43"/><g transform="translate(3.4,87.4) scale(0.22)"><path d="M276,228 H748 Q796,228 796,276 V748 Q796,796 748,796 H276 Q228,796 228,748 V276 Q228,228 276,228 Z" fill="#ffffff"/><path d="M228,276 Q228,228 276,228 H748 Q796,228 796,276 V356 H228 Z" fill="#a2c4b1"/><path d="M228,498 H796 M228,640 H796 M418,228 V796 M608,228 V796" fill="none" stroke="#206e43" stroke-width="26" stroke-linecap="butt" stroke-linejoin="round"/><path d="M228,356 H796" fill="none" stroke="#206e43" stroke-width="26" stroke-linecap="butt" stroke-linejoin="round"/></g></g>
 <line x1="232.5" y1="0" x2="232.5" y2="400" stroke="#0b1520" stroke-width="1.2"/>
 <line x1="236.5" y1="0" x2="236.5" y2="400" stroke="#0b1520" stroke-width="0.5"/>
 
 <line x1="267" y1="88.5" x2="624" y2="88.5" stroke="#0b1520" stroke-width="0.6"/>
-<path d="M271.5,81.5 L276,88.5 L271.5,95.5 L267,88.5 Z" fill="#1e9752"/>
+<path d="M271.5,81.5 L276,88.5 L271.5,95.5 L267,88.5 Z" fill="#206e43"/>
 
-<rect x="410.5" y="199.5" width="11" height="11" fill="#f5f7fa" stroke="#0b1520" stroke-opacity="0.45" stroke-width="0.7"/><rect x="425.5" y="199.5" width="11" height="11" fill="#f5f7fa" stroke="#0b1520" stroke-opacity="0.45" stroke-width="0.7"/><rect x="440.5" y="199.5" width="11" height="11" fill="#f5f7fa" stroke="#0b1520" stroke-opacity="0.45" stroke-width="0.7"/><rect x="455.5" y="199.5" width="11" height="11" fill="#1e9752" stroke="#0b1520" stroke-width="0.7"/><line x1="472" y1="205" x2="484" y2="205" stroke="#0b1520" stroke-width="1.2"/><path d="M495,205 L484,210.5 L484,199.5 Z" fill="#0b1520"/>
+<rect x="410.5" y="199.5" width="11" height="11" fill="#f5f7fa" stroke="#0b1520" stroke-opacity="0.45" stroke-width="0.7"/><rect x="425.5" y="199.5" width="11" height="11" fill="#f5f7fa" stroke="#0b1520" stroke-opacity="0.45" stroke-width="0.7"/><rect x="440.5" y="199.5" width="11" height="11" fill="#f5f7fa" stroke="#0b1520" stroke-opacity="0.45" stroke-width="0.7"/><rect x="455.5" y="199.5" width="11" height="11" fill="#206e43" stroke="#0b1520" stroke-width="0.7"/><line x1="472" y1="205" x2="484" y2="205" stroke="#0b1520" stroke-width="1.2"/><path d="M495,205 L484,210.5 L484,199.5 Z" fill="#0b1520"/>
 <line x1="267" y1="335.5" x2="624" y2="335.5" stroke="#0b1520" stroke-width="0.6"/>
 
 
